@@ -1,0 +1,98 @@
+.portfolio-footer {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px 10px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  text-align: center;
+}
+
+.navigation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+
+.navigation-grid p {
+  margin: 0;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: clamp(13px, 2vw, 17px);
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #e69900;
+}
+
+.footer-contact,
+.footer-center,
+.footer-links {
+  flex: 1 1 30%;
+  text-align: center;
+}
+
+.footer-contact h3,
+.footer-links h3 {
+  font-size: clamp(14px, 2vw, 18px);
+  text-transform: uppercase;
+  color: #e69900;
+}
+
+.footer-contact p,
+.footer-links p {
+  font-size: clamp(13px, 2vw, 17px);
+}
+
+.footer-contact a,
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-contact a:hover,
+.footer-links a:hover {
+  color: #e69900;
+}
+
+.footer-center {
+  font-size: clamp(11px, 2vw, 13px);
+  color: #e0e0e0;
+}
+
+.footer-center p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+    order: -1;
+  }
+
+  .navigation-grid {
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .footer-contact,
+  .footer-links {
+    text-align: center;
+  }
+}

@@ -1,0 +1,9 @@
+[build]
+  command = "yarn build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+  force = true

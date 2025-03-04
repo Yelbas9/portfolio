@@ -1,0 +1,382 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+.profile-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 40px;
+}
+
+.profile-section:hover {
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.8);
+}
+
+.profile-section img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+.text-content {
+  flex: 1;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.text-content h2 {
+  font-size: clamp(35px, 5vw, 50px);
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-content p {
+  font-size: clamp(14px, 1.7vw, 18px);
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #e0e0e0;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-button,
+.download-button {
+  background-color: #d0861c;
+  color: white;
+  border: none;
+  padding: clamp(10px, 1vw, 15px) clamp(10px, 1vw, 15px);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: clamp(20px, 2vw, 25px);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  width: clamp(130px, 35vw, 250px);
+  text-align: center;
+}
+
+.contact-button:hover,
+.download-button:hover {
+  background-color: #e69900;
+  transform: scale(1.05);
+}
+
+.additional-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.experience-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.experience-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.experience-card {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 385px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.experience-card:hover {
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 1);
+}
+.experience-card h3 {
+  font-size: clamp(0.5rem, 6vw, 35px);
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.experience-logo {
+  margin: 10px 0;
+}
+
+.experience-logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.experience-card h4 {
+  font-size: clamp(0.5rem, 5vw, 30px);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #d0861c;
+}
+
+.experience-card p {
+  color: #e0e0e0;
+  font-size: clamp(14px, 1.7vw, 18px);
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.experience-card em {
+  color: white;
+  font-size: clamp(0.5rem, 4vw, 25px);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.experience-section h2 {
+  font-size: clamp(1.5rem, 7vw, 50px);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.education-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.education-card {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.education-card:hover {
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 1);
+}
+.education-section h2 {
+  font-size: clamp(1.5rem, 7vw, 50px);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.education-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.education-content h3 {
+  font-size: clamp(0.5rem, 6vw, 35px);
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.education-content h4 {
+  color: #d0861c;
+  font-size: clamp(0.5rem, 5vw, 30px);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.education-content p {
+  color: #e0e0e0;
+  font-size: clamp(14px, 1.7vw, 18px);
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.education-content ul {
+  margin-top: 10px;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.education-content ul li {
+  color: #e0e0e0;
+  font-size: clamp(14px, 1.7vw, 18px);
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.language-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.language-section h2 {
+  font-size: clamp(1.5rem, 7vw, 50px);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.language-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.language-card {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  padding: 0;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+
+.language-card:hover {
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 1);
+}
+
+.language-logo img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.language-card h3 {
+  font-size: clamp(1.5rem, 4vw, 35px);
+  color: white;
+  margin-top: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.language-card h4 {
+  font-size: clamp(0.5rem, 4vw, 25px);
+  color: #d0861c;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1166px) {
+  .profile-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+    gap: 10px;
+  }
+
+  .action-buttons {
+    justify-content: center;
+  }
+
+  .text-content {
+    margin: 20px 10px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .additional-info {
+    padding: 10px;
+  }
+
+  .experience-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .experience-card,
+  .education-card {
+    max-width: 100%;
+  }
+
+  .education-content ul {
+    padding-left: 15px;
+  }
+
+  .language-logo img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .language-card {
+    max-width: 100%;
+  }
+}

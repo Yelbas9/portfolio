@@ -1,0 +1,123 @@
+/* Overlay pour flouter l'arrière-plan */
+.contact-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Conteneur du formulaire avec animation d'apparition */
+.contact-form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  transform: translateY(-20px);
+  animation: slideDown 0.3s ease-out forwards;
+}
+
+/* Style du titre */
+.contact-form-container h2 {
+  margin-bottom: 20px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* Style du bouton de fermeture */
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}
+
+/* Style des champs */
+.form-group {
+  margin-bottom: 15px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #d0861c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100px;
+}
+
+.submit-button:hover {
+  background-color: #e69900;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 14px;
+  }
+
+  .submit-button,
+  .close-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-container {
+    padding: 15px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 12px;
+  }
+
+  .submit-button,
+  .close-button {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+}
