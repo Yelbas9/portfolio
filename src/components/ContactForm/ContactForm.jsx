@@ -20,17 +20,27 @@ function ContactForm({ setView, setShowContactModal }) {
     e.preventDefault();
     const form = e.target;
 
+    const formData = new FormData(form);
+    const formParams = new URLSearchParams();
+
+    formData.forEach((value, key) => {
+      formParams.append(key, value);
+    });
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(new FormData(form)).toString(),
+      body: formParams.toString(),
     })
       .then(() => {
         alert("Message envoyé avec succès !");
         setShowContactModal(false);
         setView("home");
       })
-      .catch((error) => alert("Erreur lors de l'envoi : " + error));
+      .catch((error) => {
+        console.error("Erreur lors de l'envoi :", error);
+        alert("Erreur lors de l'envoi : " + error);
+      });
   };
 
   const closeOnOutsideClick = (e) => {
