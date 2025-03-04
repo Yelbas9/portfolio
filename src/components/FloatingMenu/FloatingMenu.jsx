@@ -10,7 +10,7 @@ function FloatingMenu() {
         rel="noopener noreferrer"
         className="linkedin-button"
       >
-        <img src="../src/assets/linkedin.png" alt="LinkedIn" className="icon" />
+        <img src="/linkedin.png" alt="LinkedIn" className="icon" />
         <span className="text">LinkedIn</span>
       </a>
       <a
@@ -19,11 +19,11 @@ function FloatingMenu() {
         rel="noopener noreferrer"
         className="github-button"
       >
-        <img src="../src/assets/github.png" alt="GitHub" className="icon" />
+        <img src="/github.png" alt="GitHub" className="icon" />
         <span className="text">GitHub</span>
       </a>
       <a href="mailto:i.yelbas@gmail.com" className="mail-button">
-        <img src="../src/assets/gmail.png" alt="Gmail" className="icon" />
+        <img src="/gmail.png" alt="Gmail" className="icon" />
         <span className="text">Gmail</span>
       </a>
     </div>
