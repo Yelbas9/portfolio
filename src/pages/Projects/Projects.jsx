@@ -98,7 +98,7 @@ function Projects({ setView }) {
           </div>
         </>
       ),
-      logo: "./src/assets/netflix.png",
+      logo: "/netflix.png",
       link: "https://netfloux-yelbas.netlify.app/",
     },
     {
@@ -202,7 +202,7 @@ function Projects({ setView }) {
           </div>
         </>
       ),
-      logo: "./src/assets/deliveroo.png",
+      logo: "/deliveroo.png",
       link: "https://deliveroo-yelbas.netlify.app/",
     },
     {
@@ -300,7 +300,7 @@ function Projects({ setView }) {
           </div>
         </>
       ),
-      logo: "./src/assets/marvel.png",
+      logo: "/marvel.png",
       link: "https://marvel-appyelbas.netlify.app/",
     },
     {
@@ -415,7 +415,7 @@ function Projects({ setView }) {
           </div>
         </>
       ),
-      logo: "./src/assets/vinted.png",
+      logo: "/vinted.png",
       link: "https://dreamy-lokum-dff293.netlify.app/",
     },
   ];
