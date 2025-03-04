@@ -3,8 +3,8 @@
 .app {
   font-family: "Arial", sans-serif;
   background: linear-gradient(to bottom, #fc6358, #4b286d, #2c1c40);
-  background-size: 100% 100vh;
-  background-attachment: fixed;
+  background-size: cover; /* Utiliser cover pour que l'image couvre tout l'écran */
+  background-attachment: fixed; /* Désactive sur mobile dans une media query */
   color: white;
   min-height: 100vh;
   display: flex;
@@ -12,26 +12,31 @@
   align-items: center;
   transition: all 0.3s ease;
 }
+
 @media (max-height: 600px) {
   .app {
-    background-size: auto 100%;
+    background-size: cover; /* Ajuster le fond pour couvrir tout l'écran */
+    background-attachment: scroll; /* Désactiver "fixed" pour éviter des problèmes sur mobile */
   }
 }
 
 @media (min-height: 1200px) {
   .app {
-    background-size: 100% 150vh;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 
 @media (min-height: 1800px) {
   .app {
-    background-size: 100% 200vh;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 
 @media (min-height: 2400px) {
   .app {
-    background-size: 100% 300vh;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
