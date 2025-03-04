@@ -11,22 +11,22 @@ function Hero() {
     {
       id: 1,
       title: "Projet Netflix",
-      logo: "./src/assets/netflix.png",
+      logo: "/netflix.png",
     },
     {
       id: 2,
       title: "Projet Deliveroo",
-      logo: "./src/assets/deliveroo.png",
+      logo: "/deliveroo.png",
     },
     {
       id: 3,
       title: "Projet Marvel",
-      logo: "./src/assets/marvel.png",
+      logo: "/marvel.png",
     },
     {
       id: 4,
       title: "Projet Vinted",
-      logo: "./src/assets/vinted.png",
+      logo: "/vinted.png",
     },
   ];
 
@@ -34,47 +34,47 @@ function Hero() {
     {
       id: 1,
       name: "JavaScript",
-      logo: "./src/assets/javascript.png",
+      logo: "/javascript.png",
     },
     {
       id: 2,
       name: "React",
-      logo: "./src/assets/react.png",
+      logo: "/react.png",
     },
     {
       id: 3,
       name: "HTML5",
-      logo: "./src/assets/html.png",
+      logo: "/html.png",
     },
     {
       id: 4,
       name: "CSS3",
-      logo: "./src/assets/css.png",
+      logo: "/css.png",
     },
     {
       id: 5,
       name: "MongoDB",
-      logo: "./src/assets/mongodb.png",
+      logo: "/mongodb.png",
     },
     {
       id: 6,
       name: "Postman",
-      logo: "./src/assets/postman.png",
+      logo: "/postman.png",
     },
     {
       id: 7,
       name: "Figma",
-      logo: "./src/assets/figma.png",
+      logo: "/figma.png",
     },
     {
       id: 8,
       name: "Git",
-      logo: "./src/assets/git.png",
+      logo: "/git.png",
     },
     {
       id: 9,
       name: "Node & Express",
-      logo: "./src/assets/node-express.png",
+      logo: "/node-express.png",
     },
   ];
 
@@ -92,11 +92,7 @@ function Hero() {
         <GlowCard identifier="hero">
           <div className="hero-inner-content">
             <div className="hero-image-container">
-              <img
-                src="./src/assets/Hero2.png"
-                alt="Votre nom"
-                className="hero-image"
-              />
+              <img src="/Hero2.png" alt="Votre nom" className="hero-image" />
             </div>
             <div className="hero-text">
               <h1>Développeur Full Stack</h1>
@@ -113,7 +109,7 @@ function Hero() {
                   Je veux en savoir plus
                 </button>
                 <a
-                  href="./src/assets/CV-Ibrahim-Yelbas.pdf"
+                  href="/CV-Ibrahim-Yelbas.pdf"
                   download
                   className="button-download"
                 >
@@ -136,7 +132,7 @@ function Hero() {
                 className="main-image"
               />
               <img
-                src={`./src/assets/${project.title.toLowerCase()}-page.jpg`}
+                src={`/${project.title.toLowerCase()}-page.jpg`}
                 alt={`${project.title} Hover`}
                 className="hover-image"
               />

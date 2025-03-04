@@ -6,47 +6,47 @@ function Competences({ setView, setCompetencesDetailedView }) {
     {
       id: 1,
       name: "JavaScript",
-      logo: "./src/assets/javascript.png",
+      logo: "/javascript.png",
     },
     {
       id: 2,
       name: "React",
-      logo: "./src/assets/react.png",
+      logo: "/react.png",
     },
     {
       id: 3,
       name: "HTML5",
-      logo: "./src/assets/html.png",
+      logo: "/html.png",
     },
     {
       id: 4,
       name: "CSS3",
-      logo: "./src/assets/css.png",
+      logo: "/css.png",
     },
     {
       id: 5,
       name: "MongoDB",
-      logo: "./src/assets/mongodb.png",
+      logo: "/mongodb.png",
     },
     {
       id: 6,
       name: "Postman",
-      logo: "./src/assets/postman.png",
+      logo: "/postman.png",
     },
     {
       id: 7,
       name: "Figma",
-      logo: "./src/assets/figma.png",
+      logo: "/figma.png",
     },
     {
       id: 8,
       name: "Git",
-      logo: "./src/assets/git.png",
+      logo: "/git.png",
     },
     {
       id: 9,
       name: "Node & Express",
-      logo: "./src/assets/node-express.png",
+      logo: "/node-express.png",
     },
   ];
 
@@ -56,33 +56,28 @@ function Competences({ setView, setCompetencesDetailedView }) {
       description:
         "J'ai acquis une expertise dans la création d'interfaces web modernes en combinant HTML5, CSS3, et JavaScript pour structurer, styliser et dynamiser les pages. Avec React, j'ai conçu des composants réactifs et réutilisables, comme lors du développement d'applications complexes telles que celles inspirées de Netflix et Deliveroo.",
       skills: ["HTML5", "CSS3", "JavaScript", "React"],
-      logos: [
-        "./src/assets/html.png",
-        "./src/assets/css.png",
-        "./src/assets/javascript.png",
-        "./src/assets/react.png",
-      ],
+      logos: ["/html.png", "/css.png", "/javascript.png", "/react.png"],
     },
     {
       title: "Développement Backend",
       description:
         "Mon expérience inclut la conception de systèmes backend robustes en utilisant Node.js et Express. Ces outils m'ont permis de structurer des API performantes, par exemple pour gérer les commandes et les utilisateurs dans une application type Deliveroo.",
       skills: ["Node.js", "Express"],
-      logos: ["./src/assets/node-express.png"],
+      logos: ["/node-express.png"],
     },
     {
       title: "Bases de données",
       description:
         "Je maîtrise MongoDB pour organiser des bases de données structurées ou flexibles, adaptées aux besoins des applications modernes. En parallèle, j'utilise Postman pour tester les API et garantir une communication fluide entre le frontend et le backend.",
       skills: ["MongoDB", "Postman"],
-      logos: ["./src/assets/mongodb.png", "./src/assets/postman.png"],
+      logos: ["/mongodb.png", "/postman.png"],
     },
     {
       title: "Outils de conception",
       description:
         "J'utilise Git pour coordonner efficacement le travail en équipe et assurer le suivi des versions de code. Avec Figma, je conçois des interfaces centrées sur l'utilisateur, en créant des prototypes fonctionnels pour aligner le design avec les objectifs du projet.",
       skills: ["Figma", "Git"],
-      logos: ["./src/assets/figma.png", "./src/assets/git.png"],
+      logos: ["/figma.png", "/git.png"],
     },
   ];
 

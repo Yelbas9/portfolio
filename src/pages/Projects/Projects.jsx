@@ -22,14 +22,14 @@ function Projects({ setView }) {
               </p>
             </div>
             <img
-              src={`./src/assets/projet netflix-page.jpg`}
+              src={`/projet netflix-page.jpg`}
               alt="Image à gauche"
               className="image-left"
             />
           </div>
           <div className="subtitle-mid">
             <img
-              src="./src/assets/step.webp"
+              src="/step.webp"
               alt="Image à droite"
               className="image-right"
             />
@@ -81,7 +81,7 @@ function Projects({ setView }) {
               </div>
             </div>
             <img
-              src="./src/assets/resultat.webp"
+              src="/resultat.webp"
               alt="Image à gauche"
               className="image-left"
             />
@@ -120,14 +120,14 @@ function Projects({ setView }) {
               </p>
             </div>
             <img
-              src={`./src/assets/projet deliveroo-page.jpg`}
+              src={`/projet deliveroo-page.jpg`}
               alt="Image à gauche"
               className="image-left"
             />
           </div>
           <div className="subtitle-mid">
             <img
-              src="./src/assets/step.webp"
+              src="/step.webp"
               alt="Image à droite"
               className="image-right"
             />
@@ -185,7 +185,7 @@ function Projects({ setView }) {
               </div>
             </div>
             <img
-              src="./src/assets/resultat.webp"
+              src="/resultat.webp"
               alt="Image à gauche"
               className="image-left"
             />
@@ -224,14 +224,14 @@ function Projects({ setView }) {
               </p>
             </div>
             <img
-              src={`./src/assets/projet marvel-page.jpg`}
+              src={`/projet marvel-page.jpg`}
               alt="Image à gauche"
               className="image-left"
             />
           </div>
           <div className="subtitle-mid">
             <img
-              src="./src/assets/step.webp"
+              src="/step.webp"
               alt="Image à droite"
               className="image-right"
             />
@@ -283,7 +283,7 @@ function Projects({ setView }) {
               </div>
             </div>
             <img
-              src="./src/assets/resultat.webp"
+              src="/resultat.webp"
               alt="Image à gauche"
               className="image-left"
             />
@@ -322,14 +322,14 @@ function Projects({ setView }) {
               </p>
             </div>
             <img
-              src={`./src/assets/projet vinted-page.jpg`}
+              src={`/projet vinted-page.jpg`}
               alt="Image à gauche"
               className="image-left"
             />
           </div>
           <div className="subtitle-mid">
             <img
-              src="./src/assets/step.webp"
+              src="/step.webp"
               alt="Image à droite"
               className="image-right"
             />
@@ -398,7 +398,7 @@ function Projects({ setView }) {
               </div>
             </div>
             <img
-              src="./src/assets/resultat.webp"
+              src="/resultat.webp"
               alt="Image à gauche"
               className="image-left"
             />

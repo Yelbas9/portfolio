@@ -5,7 +5,7 @@ function AboutMe({ setView, setShowContactModal }) {
   return (
     <div className="about-me">
       <div className="profile-section">
-        <img src="./src/assets/Hero.png" alt="Votre photo" />
+        <img src="/Hero.png" alt="Votre photo" />
         <div className="text-content">
           <h2>À propos de moi</h2>
           <p>
@@ -24,7 +24,7 @@ function AboutMe({ setView, setShowContactModal }) {
               className="download-button"
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "./src/assets/CV-Ibrahim-Yelbas.pdf";
+                link.href = "/CV-Ibrahim-Yelbas.pdf";
                 link.download = "CV-Ibrahim-Yelbas.pdf";
                 link.click();
               }}
@@ -42,7 +42,7 @@ function AboutMe({ setView, setShowContactModal }) {
             <div className="experience-card">
               <h3>ENSIO</h3>
               <div className="experience-logo">
-                <img src="./src/assets/ensio.png" alt="ENSIO Logo" />
+                <img src="/ensio.png" alt="ENSIO Logo" />
               </div>
               <h4>Responsable Commande d'Accès</h4>
               <p>
@@ -57,7 +57,7 @@ function AboutMe({ setView, setShowContactModal }) {
             <div className="experience-card">
               <h3>INEO INFRACOM</h3>
               <div className="experience-logo">
-                <img src="./src/assets/ineo.png" alt="INEO Logo" />
+                <img src="/ineo.png" alt="INEO Logo" />
               </div>
               <h4>Technicien en Bureau d'Étude</h4>
               <p>
@@ -72,7 +72,7 @@ function AboutMe({ setView, setShowContactModal }) {
             <div className="experience-card">
               <h3>SOGETREL</h3>
               <div className="experience-logo">
-                <img src="./src/assets/sogetrel.png" alt="SOGETREL Logo" />
+                <img src="/sogetrel.png" alt="SOGETREL Logo" />
               </div>
               <h4>Dessinateur-Projeteur</h4>
               <p>
@@ -90,7 +90,7 @@ function AboutMe({ setView, setShowContactModal }) {
           <h2>Formations</h2>
 
           <div className="education-card">
-            <img src="./src/assets/lereacteur.png" alt="Le Reacteur Logo" />
+            <img src="/lereacteur.png" alt="Le Reacteur Logo" />
             <div className="education-content">
               <h3>Le Reacteur</h3>
               <h4>Formation Développeur Web et Mobile</h4>
@@ -111,10 +111,7 @@ function AboutMe({ setView, setShowContactModal }) {
           </div>
 
           <div className="education-card">
-            <img
-              src="./src/assets/bordeaux.png"
-              alt="Université Bordeaux Logo"
-            />
+            <img src="/bordeaux.png" alt="Université Bordeaux Logo" />
             <div className="education-content">
               <h3>Université de Bordeaux</h3>
               <h4>Faculté d'Informatique</h4>
@@ -127,7 +124,7 @@ function AboutMe({ setView, setShowContactModal }) {
           </div>
 
           <div className="education-card">
-            <img src="./src/assets/lesiris.png" alt="Lycée Les Iris Logo" />
+            <img src="/lesiris.png" alt="Lycée Les Iris Logo" />
             <div className="education-content">
               <h3>Lycée Les Iris, Lormont</h3>
               <h4>Baccalauréat STI2D</h4>
@@ -144,21 +141,21 @@ function AboutMe({ setView, setShowContactModal }) {
           <div className="language-cards">
             <div className="language-card">
               <div className="language-logo">
-                <img src="./src/assets/france.png" alt="Français" />
+                <img src="/france.png" alt="Français" />
               </div>
               <h3>Français</h3>
               <h4>Langue maternelle</h4>
             </div>
             <div className="language-card">
               <div className="language-logo">
-                <img src="./src/assets/turquie.png" alt="Turc" />
+                <img src="/turquie.png" alt="Turc" />
               </div>
               <h3>Turc</h3>
               <h4>Courant</h4>
             </div>
             <div className="language-card">
               <div className="language-logo">
-                <img src="./src/assets/anglais.png" alt="Anglais" />
+                <img src="/anglais.png" alt="Anglais" />
               </div>
               <h3>Anglais</h3>
               <h4>Intermédiaire</h4>
