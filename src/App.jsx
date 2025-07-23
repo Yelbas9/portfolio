@@ -15,7 +15,7 @@ function App() {
       }}
     >
       <img
-        src="/rebranding.png"
+        src="/rebranding.webp"
         alt="Rebranding en cours"
         style={{
           maxWidth: 380,
