@@ -23,3 +23,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Yarn (Yarn 2+)
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Ne JAMAIS versionner le cache, build state, install state
+.yarn/cache
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Fichier Yarn Berry à garder (à la racine du projet)
+!.yarnrc.yml
