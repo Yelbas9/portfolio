@@ -46,9 +46,9 @@ function App() {
       >
         Je travaille actuellement sur une nouvelle version de mon portfolio.
         <br />
-        <strong>Début des travaux :</strong> 22 juillet 2025
+        <strong>Début des travaux :</strong> 2 août 2025
         <br />
-        <strong>Fin prévue :</strong> 1er août 2025
+        <strong>Fin prévue :</strong> 10 août 2025
       </p>
       <p
         style={{
