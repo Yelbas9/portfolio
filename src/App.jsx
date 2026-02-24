@@ -12,6 +12,7 @@ function App() {
         alignItems: "center",
         justifyContent: "center",
         padding: "2rem",
+        textAlign: "center",
       }}
     >
       <img
@@ -27,29 +28,77 @@ function App() {
           objectFit: "cover",
         }}
       />
+
       <h1
         style={{
           color: "#204b67",
           marginBottom: "1rem",
-          textAlign: "center",
         }}
       >
         Le site est en cours de refonte
       </h1>
+
       <p
         style={{
-          maxWidth: 440,
-          textAlign: "center",
+          maxWidth: 500,
           fontSize: "1.15rem",
           color: "#3d3d3d",
+          lineHeight: "1.6",
         }}
       >
-        Je travaille actuellement sur une nouvelle version de mon portfolio.
+        Je travaille actuellement sur une nouvelle version de mon portfolio avec
+        un rebranding complet et une amélioration de l’expérience utilisateur.
         <br />
-        <strong>Début des travaux :</strong> 2 août 2025
         <br />
-        <strong>Fin prévue :</strong> 10 août 2025
+        <strong>Début des travaux :</strong> 19 février 2026
+        <br />
+        <strong>Fin prévue :</strong> 1er mars 2026
       </p>
+
+      {/* SECTION CONTACT */}
+      <div
+        style={{
+          marginTop: "2.5rem",
+          padding: "1.5rem",
+          background: "#ffffff",
+          borderRadius: "14px",
+          boxShadow: "0 4px 20px rgba(0,0,0,0.05)",
+          maxWidth: "420px",
+          width: "100%",
+        }}
+      >
+        <h2
+          style={{
+            color: "#204b67",
+            marginBottom: "0.5rem",
+          }}
+        >
+          Me contacter
+        </h2>
+
+        <p
+          style={{
+            color: "#555",
+            marginBottom: "1rem",
+          }}
+        >
+          Pour toute demande ou opportunité, vous pouvez me contacter à
+          l’adresse suivante :
+        </p>
+
+        <a
+          href="mailto:i.yelbas@gmail.com"
+          style={{
+            color: "#204b67",
+            fontWeight: "bold",
+            textDecoration: "none",
+            fontSize: "1.1rem",
+          }}
+        >
+          i.yelbas@gmail.com
+        </a>
+      </div>
+
       <p
         style={{
           marginTop: "2rem",
